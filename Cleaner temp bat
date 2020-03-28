@@ -1,0 +1,7 @@
+:start
+DEL /F /S /Q /A %Temp%\*
+DEL /F /S /Q /A %SystemRoot%\TEMP\*
+DEL /F /S /Q /A C:\Temp\*
+
+cd %Temp%
+rmdir /s /q %Temp%
